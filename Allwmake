@@ -1,0 +1,17 @@
+#!/bin/sh
+cd ${0%/*} || exit 1    # run from this directory
+
+# Parse arguments for library compilation
+targetType=libso
+. $WM_PROJECT_DIR/wmake/scripts/AllwmakeParseArguments
+set -x
+
+# Build the required libraries for the polyurethane foam simulation
+./makeEigen
+wmake $targetType twoPhaseMixtureThermo
+wmake $targetType Kinetics
+wmake $targetType PBE
+wmake $targetType PUProperties
+wmake
+
+# ----------------------------------------------------------------- end-of-file

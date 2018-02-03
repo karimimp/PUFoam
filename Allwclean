@@ -1,0 +1,13 @@
+#!/bin/sh
+cd ${0%/*} || exit 1    # run from this directory
+set -x
+
+targetType=libso
+
+wclean $targetType twoPhaseMixtureThermo
+wclean $targetType Kinetics
+wclean $targetType PBE
+wclean $targetType PUProperties
+wclean
+
+# ----------------------------------------------------------------- end-of-file

@@ -1,0 +1,5 @@
+SOURCE = \
+PUgeneric/PUgeneric.C \
+blowingReaction/blowingReaction.C \
+gellingReaction/gellingReaction.C \
+blowingAgents/blowingAgents.C 
