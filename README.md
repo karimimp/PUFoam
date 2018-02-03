@@ -49,16 +49,17 @@ export LIBRARY_PATH
 ```
 
 ### References:
-1. M. Karimi, D. L. Marchisio, A Baseline Model for the Simulation of
+1. M. Karimi, H. Droghetti, D. L. Marchisio, `PUFoam`: a novel open-source CFD solver for the simulation of expanding and reacting polyurethane foams, Computer Physics Communications, Vol. 217, pp. 138--148, 2017.
+2. M. Karimi, D. L. Marchisio, A Baseline Model for the Simulation of
 Polyurethane Foams via the Population Balance Equation, Macromolecular Theory
 and Simulations 24 (2015) 291–300.
-2. M. Karimi, H. Droghetti, D. L. Marchisio, Multiscale Modeling of Expand-ing
+3. M. Karimi, H. Droghetti, D. L. Marchisio, Multiscale Modeling of Expand-ing
 Polyurethane Foams via Computational Fluid Dynamics and Popula-tion Balance
 Equation, Macromolecular Symposia 360 (2016) 108–122.
-3. P. Ferkl, M. Karimi, D. L. Marchisio, J. Kosek, Multi-scale modelling of
+4. P. Ferkl, M. Karimi, D. L. Marchisio, J. Kosek, Multi-scale modelling of
 expanding polyurethane foams: coupling macro- and bubble-scales, Chemical
 Engineering Science (2016).
-4. MoDeNa-EUProject, Modelling of morphology development of micro- and
+5. MoDeNa-EUProject, Modelling of morphology development of micro- and
 nanostructures, 2015. URL: https://github.com/MoDeNa-EUProject/MoDeNa
-5. D. L. Marchisio, R. O. Fox, Computational Models for Polydisperse Particulate
+6. D. L. Marchisio, R. O. Fox, Computational Models for Polydisperse Particulate
 and Multiphase Systems, Cambridge University Press, 2013.
